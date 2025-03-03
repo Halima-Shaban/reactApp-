@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.contain {
+  padding: 0 10%;
+}
+
+.btn {
+  background: #fff !important;
+  color: #212121 !important;
+  padding: 14px 25px !important;
+  font-size: 16px !important;
+  border-radius: 30px !important;
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+.btn img {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.btn.dark-btn {
+  background: #212121 !important;
+  color: #fff !important;
+}
+
+@media (max-width: 767px) {
+  .contain {
+  }
+}
+
+@media (max-width: 991px) {
+  .contain {
+  }
+}
+
+/* Styles for large screens (no media query needed) */
+.contain {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.btn {
+  padding: 14px 22px;
+}
